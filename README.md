@@ -9,9 +9,8 @@ Requirements:
 This script automatically logins to your account and joins the meeting you are invited in calendar meetings.
 
   
- <center>
-<img src="https://raw.githubusercontent.com/prajinkhadka/auto-join-teams/main/ezgif.com-video-to-gif2.gif" width="800"/>
-</center>
+  
+![](ezgif.com-video-to-gif2.gif)
 
 
 ### Steps:
@@ -31,3 +30,4 @@ This script automatically logins to your account and joins the meeting you are i
 
 Or, 
 - run `source auto_join.sh` in bash terminal.
+
