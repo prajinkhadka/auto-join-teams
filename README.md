@@ -12,7 +12,7 @@ This script automatically logins to your account and joins the meeting you are i
 
 - git clone https://github.com/prajinkhadka/auto_join_teams.git
 - Install python and pip
-- pip install -r requirements.txt
+- `pip install -r requirements.txt`
 - Edit Configuration file
   - [Example file ](https://paste.ubuntu.com/p/Ndf3bn29Z2/)
   - Important params
@@ -22,3 +22,6 @@ This script automatically logins to your account and joins the meeting you are i
       - Leave_if_last: leave if you are last in the meeting 
       - Headless: if true ( GUI won't open )
 - Run python auto_joiner.py or python3 auto_joiner.py
+
+Or, 
+- run `source auto_join.sh` in bash terminal.
