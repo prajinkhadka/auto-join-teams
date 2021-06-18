@@ -1,5 +1,12 @@
-git clone https://github.com/prajinkhadka/auto_join_teams.git
-sudo apt install python3-pip
-pip3 install -r requirements.txt
-python3 auto_joiner.py
-
+git clone https://github.com/prajinkhadka/auto-join-teams.git
+pip=$(sudo /root/.local/bin/pip -V | cut -c 1-3)
+if [[ pip != "pip" ]]; then
+    echo "Installing pip..."
+    curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py
+    sudo /workplace/user/package/src/EnvImprovement/bin/python2.7 get-pip.py --user
+else
+    echo "Pip detected."
+fi
+cd auto-join-teams
+pip install -r requirements.txt
+python auto_joiner.py
