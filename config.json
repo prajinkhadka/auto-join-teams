@@ -1,0 +1,18 @@
+{
+  "email": "prajin.745421@bkmc.tu.edu.np",
+  "password": "password",
+
+  "run_at_time": "",
+
+  "meeting_mode": 1,
+  "organisation_num" : 1,
+  "random_delay": false,
+  "check_interval": 10,
+
+  "auto_leave_after_min": 60,
+  "leave_if_last": true,
+
+  "headless" : false,
+  "mute_audio": false,
+  "chrome_type": "google-chrome"
+}
